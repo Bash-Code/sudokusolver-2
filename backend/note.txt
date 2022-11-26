@@ -1,0 +1,13 @@
+InputImage >>>>> scan puzzle (btn : Proceed) >>>>> verification (show img , validate (yes/no))
+
+if yes :
+	solve( auto )
+	showsol( verification(sys) )
+
+	if sol :
+		Show puzzle with possibility to download solution image
+	else :
+		MSG ERROR (no sol)
+
+else :
+	go back (InputImage)
